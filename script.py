@@ -81,6 +81,10 @@ print(period_30fps)
 # remove frame of 2fps
 # shutil.rmtree(video_2fps_path)
 
+with open('face_period.txt','w') as f:
+    for item in period_30fps:
+        f.write(str(item[0])+" "+str(item[1])+"\n")
+
 # VAD get clip frame
 
 # get face bbox
