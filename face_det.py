@@ -47,7 +47,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     
-    # 需要修改-----------------------输出到<output_dir>/2fps_timestamp.json中
+    # 需要修改-----------------------输出到<output_dir>/2fps_timestamp中，(uid start_time end_time)格式
     video_path = './apple'
     video_2fps_path = './apple_2fps'
     face_path = 'face.png'
